@@ -1,1 +1,31 @@
-// TODO
+.banner {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.header {
+    margin-bottom: 64px;
+}
+
+.title {
+    font-size: 48px;
+    color: var(--heading);
+    margin-bottom: 24px;
+}
+
+.blockContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+
+.contentHeading {
+    font-size: 36px;
+    color: var(--heading);
+}
+
+.contentBody {
+    font-size: 18px;
+    color: var(--body);
+}

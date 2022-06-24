@@ -79,7 +79,7 @@ describe('Home', () => {
     };
 
     mockedPrismic.mockReturnValue({
-      query: () => {
+      getByType: () => {
         return Promise.resolve(mockedQueryReturn);
       },
     });
